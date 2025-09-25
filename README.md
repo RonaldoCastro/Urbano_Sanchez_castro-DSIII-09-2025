@@ -1,8 +1,8 @@
  Aprendiendo Git y GitHub
 
-Este repositorio documenta mi proceso de aprendizaje con Git y GitHub, herramientas fundamentales para el control de versiones y la colaboración en proyectos de software.
+Este repositorio documenta nuestro proceso de aprendizaje con Git y GitHub, herramientas fundamentales para el control de versiones y la colaboración en proyectos de software.
 
- ¿Qué he aprendido?
+ ¿Qué hemos aprendido?
 
 Inicializar un repositorio Git
 - Usar `git init` para iniciar el control de versiones en una carpeta local.
