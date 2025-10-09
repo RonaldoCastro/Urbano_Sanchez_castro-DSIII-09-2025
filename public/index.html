@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sistema de Inventario - Tienda Verde" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <title>Tienda Verde | Sistema de Inventario</title>
+
+    <!-- Estilos base -->
+    <style>
+      body {
+        margin: 0;
+        background: #ffffff;
+        color: #1b5e20;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Contenedor raíz donde se monta React */
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Loader inicial */
+      .loader {
+        font-size: 1.5rem;
+        font-weight: 500;
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0.3;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.3;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- React montará tu aplicación dentro de este div -->
+    <div id="root">
+      <div class="loader">Cargando Resolvm...</div>
+    </div>
+
+    <!-- Script principal que inicia React (Vite lo gestiona automáticamente) -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
